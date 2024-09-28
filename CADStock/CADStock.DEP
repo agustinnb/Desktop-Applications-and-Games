@@ -1,0 +1,68 @@
+[Version]
+Version=2.0.0.0
+
+[CADStock.exe <0009>]
+Dest=$(AppPath)
+Date=24/08/2011
+Time=00:26
+Version=2.0.0.0
+CABFilename=CADStock.CAB
+CABINFFile=CADStock.INF
+Uses1=msvbvm60.dll
+Uses2=oleaut32.dll
+Uses3=olepro32.dll
+Uses4=asycfilt.dll
+Uses5=stdole2.tlb
+Uses6=COMCAT.DLL
+Uses7=comctl32.dll
+Uses8=user32.dll
+Uses9=msado20.tlb
+Uses10=msstdfmt.dll
+Uses11=EXCEL.EXE
+Uses12=scrrun.dll
+Uses13=MSCOMCTL.OCX
+Uses14=comdlg32.ocx
+Uses15=ChamaleonButton.ocx
+Uses16=Hook-Menu-2.ocx
+
+[comctl32.dll <0009>]
+Dest=$(WinSysPath)
+Date=20/11/2010
+Time=09:18
+Version=5.82.7601.17514
+
+[user32.dll <0009>]
+Dest=$(WinSysPath)
+Date=10/01/1980
+Time=00:00
+Version=4.0.0.950
+
+[msado20.tlb <0009>]
+Dest=$(WinSysPath)
+Date=20/11/2010
+Time=07:43
+Version=6.1.7601.17514
+
+[msstdfmt.dll <0009>]
+Dest=$(WinSysPath)
+Date=23/02/2004
+Time=20:42
+Version=6.1.97.82
+
+[EXCEL.EXE <0009>]
+Dest=$(AppPath)
+Date=12/04/2011
+Time=03:03
+Version=12.0.6557.5000
+
+[ChamaleonButton.ocx <0009>]
+Dest=$(WinSysPath)
+Date=01/06/2007
+Time=14:37
+Version=1.0.0.0
+
+[Hook-Menu-2.ocx <0009>]
+Dest=$(WinSysPath)
+Date=11/07/2007
+Time=03:24
+Version=1.4.0.0
